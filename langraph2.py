@@ -25,7 +25,7 @@ embedding_model = load_embeddings()
 
 # Streamlit Page Config
 st.set_page_config(page_title="Gemini Chat", layout="wide")
-st.title("Gemini Chat Assistant + PDF RAG Agent")
+st.title("Chat Assistant + PDF RAG Agent")
 
 # Session State Initialization
 if "gemini_model" not in st.session_state:
@@ -238,3 +238,4 @@ with st.sidebar:
         
         Helps AI answer questions about your documents
         """)
+
